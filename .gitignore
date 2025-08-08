@@ -1,0 +1,5 @@
+# Ignore as credenciais do Banco de Dados
+.env
+
+# Ignore a pasta node_modules
+node_modules
