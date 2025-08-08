@@ -15,7 +15,7 @@ body {
 table {
   width: 80%;
   border-collapse: collapse;
-  margin: 20px auto;
+  margin: auto;
 }
 
 th, td {
@@ -48,13 +48,13 @@ input, button {
   cursor: pointer;
   border-radius: 4px;
   transition: background-color 0.3s ease;
+  margin-left: 8px;
 }
 
 .atualizar {
   background-color: #28b96f;
   color: white;
   border: none;
-  margin-left: 8px;
   padding: 10px 16px;
   text-align: center;
   text-decoration: none;
@@ -164,10 +164,10 @@ form > * {
     <p>Eduardo Araújo Nobrega</p>
     <section>
       <form>
-        <input id="inputNome" placeholder="nome" type="text">
-        <input id="inputEmail" placeholder="email" type ="email">
-        <input id="inputSenha" placeholder="senha" type="password">
-        <input id="inputTelefone" placeholder="telefone" type="number">
+        <input id="inputNome" placeholder="Nome" type="text">
+        <input id="inputEmail" placeholder="Email" type ="email">
+        <input id="inputSenha" placeholder="Senha" type="password">
+        <input id="inputTelefone" placeholder="Telefone" type="tel" pattern="[0-9]{11}">
         <button type="submit">Adicionar</button>
       </form>
     </section>
