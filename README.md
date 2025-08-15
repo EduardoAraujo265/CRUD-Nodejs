@@ -16,10 +16,11 @@ Para Executar o WebServer, o arquivo **index.js** deve ser executado
 
 - Lista dinâmica que atualiza a cada mudança no banco de dados
 
--Oferece suporte a [MySQL](https://www.mysql.com/) e [PostgreSQL](https://www.postgresql.org/)
+- Oferece suporte a [MySQL](https://www.mysql.com/) e [PostgreSQL](https://www.postgresql.org/)
 
 ## Screenshots
 
 ![Dashboard](https://github.com/EduardoAraujo265/CRUD-Nodejs/blob/main/Images/Screenshot%20Dashboard.png)
+
 
 
