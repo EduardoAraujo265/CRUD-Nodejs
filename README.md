@@ -23,5 +23,6 @@ Para Executar o WebServer, o arquivo **index.js** deve ser executado
 
 ## Screenshots
 
-![Dashboard](https://github.com/EduardoAraujo265/CRUD-Nodejs/blob/main/Images/Screenshot%20Dashboard.png)
+![Dashboard](https://github.com/EduardoAraujo265/CRUD-Nodejs/blob/main/Images/Dashboard2.png)
+
 
