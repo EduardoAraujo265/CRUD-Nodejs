@@ -1,6 +1,14 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
+  background-color: #14161a;
+  color: white;
+}
+
+input {
+  background-color: #2c313a;
+  border: 1px solid #3f4654;
+  color: white
 }
 
 table {
@@ -10,13 +18,20 @@ table {
 }
 
 th, td {
-  border: 1px solid #dddddd;
+  border: 1px solid #2c313a;
   text-align: left;
   padding: 10px;
+  
+}
+td.acoes, th.acoes {
+text-align: center;
 }
 
+
+
 th {
-  background-color: #f2f2f2;
+  background-color: #2c313a;
+  color: #a9afbc;
 }
 
 form {
@@ -78,7 +93,7 @@ input, button {
 }
 
 .modal-content {
-  background-color: #fefefe;
+  background-color: #14161a;
   margin: 5% auto;
   padding: 20px;
   border: 1px solid #888;
@@ -101,6 +116,7 @@ input, button {
 
 section {
   margin-top: 20px;
+  box-sizing: border-box;
 }
 
 form, section, h1, p {
@@ -119,7 +135,7 @@ button[type="submit"] {
   padding: 12px;
   margin-right: 10px;
   margin-bottom: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #3f4654;
   border-radius: 4px;
 }
 
@@ -131,7 +147,7 @@ input[type="tel"] {
 }
 
 button[type="submit"] {
-  background-color: #4CAF50;
+  background-color: #28b96f;
   color: white;
   border: none;
   cursor: pointer;

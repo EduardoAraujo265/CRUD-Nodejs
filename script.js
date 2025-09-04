@@ -17,9 +17,9 @@ function carregarUsuarios() {
             <td>${email}</td>
             <td>${senha}</td>
             <td>${telefone}</td>
-
+           <td class="acoes">
             <button class="deletar" data-id="${id}">X</button>
-            <button class="atualizar" data-id="${id}">Atualizar</button>
+            <button class="atualizar" data-id="${id}">Atualizar</button></td>
           `;
           tbody.appendChild(row);
         });
@@ -141,6 +141,7 @@ table.innerHTML = `
           <th>Email</th>
           <th>Senha</th>
           <th>Telefone</th>
+          <th class="acoes">Ações</th>
       </tr>
   </thead>
   <tbody id="table-body">

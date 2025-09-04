@@ -6,10 +6,3 @@
   `id` int NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`id`)
 );
-CREATE TABLE public.usuarios (
-    nome character varying(500),
-    email character varying(255),
-    telefone character(12),
-    senha character varying(255),
-    id SERIAL PRIMARY KEY
-);
