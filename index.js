@@ -14,6 +14,8 @@ const update = require('./update')
 
 const deleteapi = require ('./delete')
 
+const auth = require('./auth.js');
+
 app.use(express.json());
 
 app.use('/usuarios',create);
@@ -24,12 +26,14 @@ app.use('/', deleteapi);
 
 app.use('/', update);
 
+app.use('/', auth);
+
 // servindo arquivos estáticos (CSS, JS, imagens, etc.)
 app.use(express.static(__dirname ));
 
 // rota para servir o arquivo head.html
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'head.html'));
+    res.sendFile(path.join(__dirname, 'login.html'));
 });
 
 

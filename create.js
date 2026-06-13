@@ -20,7 +20,7 @@ if (db === "postgres") {
 
             const resultado = await connection.query(query, values);
             res.status(202).json({
-                message: "User Created",
+                message: `User Created`,
             });
                 }  catch (err) {
             res.status(500).json({

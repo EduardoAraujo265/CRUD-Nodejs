@@ -6,3 +6,10 @@
   `id` int NOT NULL AUTO_INCREMENT,
   PRIMARY KEY (`id`)
 );
+ CREATE TABLE `admins` (
+    ->   `nome` varchar(500) DEFAULT NULL,
+    ->   `email` varchar(255) DEFAULT NULL,
+    ->   `senha` varchar(255) DEFAULT NULL,
+    ->   `id` int NOT NULL AUTO_INCREMENT,
+    ->   PRIMARY KEY (`id`)
+    -> );

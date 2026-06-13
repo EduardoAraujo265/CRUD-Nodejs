@@ -14,7 +14,7 @@
       <form>
         <input id="inputNome" placeholder="Nome" type="text">
         <input id="inputEmail" placeholder="Email" type ="email">
-        <input id="inputSenha" placeholder="Senha" type="password">
+        <input id="inputSenha" placeholder="Senha" type="password" minlength="8">
         <input id="inputTelefone" placeholder="Telefone" type="tel" pattern="[0-9]{11}">
         <button type="submit">Adicionar</button>
       </form>
@@ -28,8 +28,8 @@
         <form id="editForm">
           <input id="editNome" placeholder="nome" type="text">
           <input id="editEmail" placeholder="email" type="email">
-          <input id="editSenha" placeholder="senha" type="password">
-          <input id="editTelefone" placeholder="telefone" type="number">
+          <input id="editSenha" placeholder="senha" type="password" minlength="8">
+          <input id="editTelefone" placeholder="telefone" type="tel" pattern="[0-9]{11}">
           <button type="submit">Salvar</button>
         </form>
       </div>

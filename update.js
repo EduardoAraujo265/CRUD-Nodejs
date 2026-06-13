@@ -38,7 +38,11 @@ module.exports = app.patch("/usuarios/:id", async (req, res) => {
                 [nome, email, senha, telefone, id]
             );
         res.status(200).json({
-            message: "updated",
+            user: nome,
+            email: email,
+            senha: senha,
+            telefone: telefone,
+            message: `Usuário ${id} atualizado com sucesso`,
         });
     } catch (err) {
     }
