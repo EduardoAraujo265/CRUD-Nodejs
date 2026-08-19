@@ -1,6 +1,12 @@
-# Ignore as credenciais do Banco de Dados
+# Credenciais e segredos
 .env
 
-# Ignore a pasta node_modules
+# Dependências
 node_modules
+
+# Deploy
 .vercel
+
+# Logs
+npm-debug.log*
+*.log

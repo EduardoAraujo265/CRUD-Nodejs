@@ -1,0 +1,180 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #14161a;
+  color: white;
+}
+
+input {
+  background-color: #2c313a;
+  border: 1px solid #3f4654;
+  color: white
+}
+
+table {
+  width: 80%;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th, td {
+  border: 1px solid #2c313a;
+  text-align: left;
+  padding: 10px;
+  
+}
+td.acoes, th.acoes {
+text-align: center;
+}
+
+
+
+th {
+  background-color: #2c313a;
+  color: #a9afbc;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input, button {
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.deletar {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  margin-left: 8px;
+}
+
+.atualizar {
+  background-color: #28b96f;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.deletar:hover, .atualizar:hover {
+  background-color: #cc0000;
+}
+
+.atualizar:hover {
+  background-color: #2E9663;
+}
+
+/* Modal styles */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 60px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+  background-color: #14161a;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  border-radius: 8px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover, .close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+section {
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+
+form, section, h1, p {
+  display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+button[type="submit"] {
+  padding: 12px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #3f4654;
+  border-radius: 4px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  flex: 1;
+}
+
+button[type="submit"] {
+  background-color: #28b96f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+form > * {
+  margin-right: 10px;
+}
+
+
+.topo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.topo h1 {
+  margin: 0;
+}
+
+#sair {
+  padding: 8px 14px;
+}

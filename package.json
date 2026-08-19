@@ -1,21 +1,30 @@
 {
-  "name": "crud",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "crud-nodejs",
+  "version": "2.0.0",
+  "description": "CRUD de usuários com Node.js, Express, MySQL/PostgreSQL, autenticação por JWT e senhas com hash",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "setup": "node scripts/setup.js",
+    "hash-password": "node scripts/hashPassword.js"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC",
+  "engines": {
+    "node": ">=18"
+  },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
     "dotenv": "^17.2.1",
     "express": "^4.19.2",
+    "express-validator": "^7.2.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.14.2",
-    "nodemon": "^3.1.10",
-    "pg": "^8.16.3",
-    "vercel": "^44.7.3"
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
   }
 }
