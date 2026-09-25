@@ -1,15 +1,10 @@
 # Credenciais e segredos
 .env
 
-<<<<<<< HEAD
 # Dependências
 node_modules
 
 # Deploy
-=======
-# Ignore a pasta node_modules
-node_modules/
->>>>>>> main
 .vercel
 
 # Logs
