@@ -1,6 +1,10 @@
 # CRUD em Node.js
-
 Dashboard que realiza as quatro operações de um CRUD (usuários) usando **Node.js, Express, HTML, CSS e JavaScript**, com suporte a **MySQL** e **PostgreSQL**.
+### Para acessar:
+> entre no site https://crud-nodejs-psi.vercel.app/
+> faça login usando as credenciais:
+> email: araujoeduardo265@gmail.com
+> senha: githubEduardo
 
 > Projeto originalmente feito para a disciplina *Construção de Aplicações Web* da FAETERJ-RIO, reestruturado para seguir boas práticas de organização, segurança e manutenção.
 
