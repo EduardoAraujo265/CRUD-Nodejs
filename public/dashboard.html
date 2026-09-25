@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>Painel CRUD Node</title>
+    <link type="text/css" rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <div class="topo">
+      <h1>Projeto CRUD Node</h1>
+      <button id="sair" class="deletar">Sair</button>
+    </div>
+    <section>
+      <form>
+        <input id="inputNome" placeholder="Nome" type="text" required>
+        <input id="inputEmail" placeholder="Email" type="email" required>
+        <input id="inputSenha" placeholder="Senha" type="password" minlength="8" required>
+        <input id="inputTelefone" placeholder="Telefone" type="tel" pattern="[0-9]{10,11}" required>
+        <button type="submit">Adicionar</button>
+      </form>
+    </section>
+    <div id="mydiv"></div>
+
+    <div id="editModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Editar Usuário</h2>
+        <form id="editForm">
+          <input id="editNome" placeholder="nome" type="text" required>
+          <input id="editEmail" placeholder="email" type="email" required>
+          <input id="editSenha" placeholder="nova senha" type="password" minlength="8" required>
+          <input id="editTelefone" placeholder="telefone" type="tel" pattern="[0-9]{10,11}" required>
+          <button type="submit">Salvar</button>
+        </form>
+      </div>
+    </div>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

@@ -162,3 +162,19 @@ form > * {
   margin-right: 10px;
 }
 
+
+.topo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.topo h1 {
+  margin: 0;
+}
+
+#sair {
+  padding: 8px 14px;
+}
